@@ -1,0 +1,119 @@
+body{
+    font-family: "Open Sans";
+}
+
+.container {
+    width: 80%;
+}
+
+.big-container {
+    widht: 100%;
+}
+
+h1, h2, .top-nav li a {
+    font-family: 'Amaranth', sans-serif;
+}
+
+h1, h2{
+    color: #ABD694;
+}
+
+h1{
+    font-size:150px;
+    text-align: center;
+    margin: 0 0 0 0;
+    padding: 30vh 0 0 0;
+}
+
+h2{
+    font-size: 60px;
+    padding-top:30px;
+}
+
+p{
+    font-size: 14px;
+    line-height: 160%;
+    font-weight: 300;
+}
+
+/* Header Top-nav*/
+header {
+    padding-bottom: 20px;
+    padding-top: 10px;
+    background: #ABD694;
+    width: 100%;
+}
+
+.top-nav {
+    text-align: center;
+    list-stlye: none;
+}
+
+.top-nav li {
+    float: none;
+    list-style: none;
+    display: inline-block;
+    padding: 20px 40px 0 40px;
+}
+
+.top-nav li a {
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+    padding: 0 5px 0 5px;
+}
+
+/* Small-Nav */
+
+.small-nav{
+    text-align: center;
+    list-stlye: none;
+}
+
+.small-nav li {
+    float: none;
+    list-style: none;
+    display: inline-block;
+    padding: 20px 40px 0 40px;
+}
+
+.small-nav li a {
+    color: black;
+    font-size: 20px;
+    font-weight:300;
+    padding: 0 5px 0 5px;
+}
+
+/* Hero Image */
+.hero-img{
+    background-image: url('../assets/heroimg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 85vh;
+
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+}
+
+.hero-title{
+}
+
+/* Cols */
+.col-md-12, .col-md-6{
+    padding: 0 50px 0 50px;
+}
+
+footer{
+    background-color: #ABD694;
+    height: 80px;
+    margin: 8vh 0 0 0;
+}
+
+footer .left{
+    margin-top: 20px;
+    float: left;
+}

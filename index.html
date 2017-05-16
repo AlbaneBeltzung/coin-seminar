@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html ng-app="coin-seminar" lang="en">
+<head>
+    <title>cose - TV Series</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amaranth:400,700" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="nav">
+            <ul class="top-nav">
+                <li>
+                    <a>Task</a>
+                </li>
+                <li>
+                    <a >Goal</a>
+                </li>
+                <li>
+                    <a>Team</a>
+                </li>
+                <li>
+                    <a>Results</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
+<div class="big-container">
+    <div class="hero-img">
+        <div class="hero-title">
+            <h1>TV Series</h1>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <section id="scope">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Task</h2>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                    labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+                    et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                    labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+                    et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="col-md-6">
+                <h2>Goal</h2>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                    labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+                    et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                    labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+                    et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+    </section>
+    <section id="team">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>The team</h2>
+            </div>
+        </div>
+    </section>
+    <section id="results">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Our results</h2>
+                <div class="small-nav">
+                    <ul class="small-top-nav">
+                        <li>
+                            <a href="#/result01">Result 1</a>
+                        </li>
+                        <li>
+                            <a href="#/result02">Result 2</a>
+                        </li>
+                        <li>
+                            <a href="#/result03">Result 3</a>
+                        </li>
+                        <li>
+                            <a href="#/result04">Result 4</a>
+                        </li>
+                    </ul>
+                </div>
+                <div ng-view></div>
+            </div>
+        </div>
+    </section>
+</div>
+<footer>
+    <div class="container">
+        <div class="footer-content col-md-12">
+            <div class="left">
+                <p>Coin Seminar<br/>Spring 2017 </p>
+            </div>
+            <div class="right">
+
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
