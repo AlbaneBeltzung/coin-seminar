@@ -28,16 +28,16 @@
         <div class="nav">
             <ul class="top-nav">
                 <li>
-                    <a>Task</a>
+                    <a href="#scope">Task</a>
                 </li>
                 <li>
-                    <a >Goal</a>
+                    <a href="#scope">Goal</a>
                 </li>
                 <li>
-                    <a>Team</a>
+                    <a href="#team">Team </a>
                 </li>
                 <li>
-                    <a>Results</a>
+                    <a href="#results">Results </a>
                 </li>
             </ul>
         </div>
@@ -80,7 +80,8 @@
             </div>
         </div>
     </section>
-    <section id="results">
+<!--
+    <section id="results2">
         <div class="row">
             <div class="col-md-12">
                 <h2>Our results</h2>
@@ -103,6 +104,48 @@
                 <div ng-view></div>
             </div>
         </div>
+    </section>-->
+    <section id="results">
+        <div class="row">
+            <div class="col-md-12">
+            <h2>Our results</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div id="small-nav" class="small-nav">
+                    <ul class="nav nav-pills small-top-nav">
+                        <li class="active">
+                            <a href="#1b" data-toggle="tab">Result 1</a>
+                        </li>
+                        <li><a href="#2b" data-toggle="tab">Result 2</a>
+                        </li>
+                        <li><a href="#3b" data-toggle="tab">Result 3</a>
+                        </li>
+                        <li><a href="#4a" data-toggle="tab">Result 4</a>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content clearfix">
+                        <div class="tab-pane active" id="1b">
+                            <div class='tableauPlaceholder' id='viz1495901663332' style='position: relative'><noscript><a href='#'><img alt='Welche Länder bieten welches Genre an und welches Ranking haben diese ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;La&#47;Landkarte_GenreRanking_MitZeitachse&#47;Landkarte&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='Landkarte_GenreRanking_MitZeitachse&#47;Landkarte' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;La&#47;Landkarte_GenreRanking_MitZeitachse&#47;Landkarte&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1495901663332');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+                        </div>
+                        <div class="tab-pane" id="2b">
+                            <h3>We use the class nav-pills instead of nav-tabs which automatically creates a background
+                                color for the tab</h3>
+                        </div>
+                        <div class="tab-pane" id="3b">
+                            <h3>We applied clearfix to the tab-content to rid of the gap between the tab and the
+                                content</h3>
+                        </div>
+                        <div class="tab-pane" id="4b">
+                            <h3>We use css to change the background color of the content to be equal to the tab</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </section>
 </div>
 <footer>
