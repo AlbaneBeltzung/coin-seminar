@@ -95,6 +95,10 @@ header {
     background-color: transparent;
     text-decoration: underline;
 }
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+    color: #abd694;
+    background-color: transparent;
+}
 
 /* Hero Image */
 .hero-img{
